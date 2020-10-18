@@ -1,4 +1,4 @@
-# MY-TEMPLATE-ENGINE
+# My-template-engine
 
 ![](https://img.shields.io/badge/type-JS_Library-brightgreen.svg "Project type")
 ![](https://img.shields.io/github/repo-size/LorenzoCorbella74/my-template-engine "Repository size")

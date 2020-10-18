@@ -1,6 +1,6 @@
 {
-  "name": "my-super-minimal-template-engine",
-  "version": "1.0.0",
+  "name": "my-template-engine",
+  "version": "0.0.1",
   "description": "",
   "main": "index.html",
   "scripts": {
