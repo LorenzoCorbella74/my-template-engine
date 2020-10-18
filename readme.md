@@ -1,8 +1,8 @@
-# MY-TEMPLATE-ENGINE
+# My-template-engine
 
 ![](https://img.shields.io/badge/type-JS_Library-brightgreen.svg "Project type")
-![](https://img.shields.io/github/repo-size/LorenzoCorbella74/MY-TEMPLATE-ENGINE "Repository size")
-![](https://img.shields.io/github/package-json/v/LorenzoCorbella74/MY-TEMPLATE-ENGINE)
+![](https://img.shields.io/github/repo-size/LorenzoCorbella74/my-template-engine "Repository size")
+![](https://img.shields.io/github/package-json/v/LorenzoCorbella74/my-template-engine)
 
 My attemp to develop a simple template engine with reactive updates on model changes. 
 
@@ -17,7 +17,7 @@ const STATE = {
     relatives: [{ name: "Dad" }, { name: "Mum" }]
   },
   age: 46,
-  woman: ["Chiara", "Luce"],
+  woman: ["First", "Two"],
   get proper() {
     return `Mr ${this.profile.surname}`;
   },
@@ -63,7 +63,7 @@ setTimeout(() => {
 }, 1250);
 
 setTimeout(() => {
-  reactiveData.woman.push("Gloria");
+  reactiveData.woman.push("NewOne");
 }, 2500);
 
 setTimeout(() => {
@@ -76,8 +76,8 @@ setTimeout(() => {
 
 setTimeout(() => {
   reactiveData.profile = {
-    surname: "Lorenzo",
-    name: " Corbella",
+    surname: "Gyno",
+    name: " Formella",
     relatives: []
   };
 }, 10000);
